@@ -105,9 +105,8 @@ step 14: to stop and remove everything
 
 
 step 15: **docker ps**
-At the end You have successfully,
+At the end You have successfully defined and run multi-container Docker applications using a single YAML file (docker-compose.yml)
 
-Set up EC2
 
 Installed Docker & Docker Compose
 
@@ -117,6 +116,4 @@ Verified logs
 
 Accessed them from the internet
 
-Cleaned up afterward
-
-defined and run multi-container Docker applications using a single YAML file (docker-compose.yml)
+Cleaned up afterward.
