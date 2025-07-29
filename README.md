@@ -6,16 +6,16 @@ Docker Compose is a tool that simplifies the management of multi-container Docke
 Set up EC2
 
 
-Installed Docker & Docker Compose
+Install Docker & Docker Compose
 
 
-Created 3 containers using a YAML file
+Creating 3 containers using a YAML file
 
 
-Verified logs
+Verify logs
 
 
-Accessed them from the internet
+Access them from the internet
 
 
 Cleaned up afterward
@@ -24,10 +24,10 @@ Cleaned up afterward
 Step 1: Create ec2 – server – connect – install docker – check status – start docker
 
 
-Step 2:
-1. **sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose**
-2. **sudo chmod +x /usr/local/bin/docker-compose**
-3. **sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose**
+Step 2: 
+1. **sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose**     : command to import code or content from outside world.
+2. **sudo chmod +x /usr/local/bin/docker-compose**                                                                                                : command to change mode and make file as executable
+3. **sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose**                                                                           : command to create symbolic of soft links
 4. **docker-compose version**
 
 
