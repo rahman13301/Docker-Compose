@@ -52,22 +52,33 @@ by using this code it creates 3 containers
 
 
 version: '3.8'
+
 services:
+
 nginx:
+
 image: nginx:latest
+
 container_name: nginx_server
+
 ports:
  - "8081:80"
 
 apache: image: httpd:latest
+
 container_name: apache_server
+
 ports:
  - "8082:80"
 
 alpine:
+
 image: alpine:latest
+
 container_name: alpine_box
+
 command: ["sh", "-c", "while true; do echo Hello from Alpine!; sleep 5; done"]
+
 ----------- -----------------
 Once inserted code save and quit by using esc+ :wq
 
