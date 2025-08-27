@@ -4,7 +4,12 @@
 
 
 ## Step 1: Create ec2 – server – connect – install docker – check status – start docker
-
+```
+yum install -y docker
+docker --version 
+systemctl status docker
+systemctl start docker
+```
 
 ## Step 2: Import Docker compose dependencies and make it excecutable:
 ```
