@@ -1,6 +1,6 @@
 **Docker Compose** is a tool that simplifies the management of multi-container Docker applications. It allows you to define and run multiple containers using a single YAML file (docker-compose.yml), streamlining the orchestration of services like web servers, databases, and caches. With a single command, you can build, start, and manage your entire application stack.
 
-## Docker-based multi-container application setup on a cloud server (EC2)
+# Docker-based multi-container application setup on a cloud server (EC2)
 
 
 ## Step 1: Create ec2 – server – connect – install docker – check status – start docker
