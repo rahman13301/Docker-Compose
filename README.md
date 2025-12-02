@@ -3,7 +3,7 @@
 ## Docker-based multi-container application setup on a cloud server (EC2)
 
 
-### Step 1: Create ec2 server, Connect, install docker, check status, start docker. (Below commands are for Amazon Linux AMI)
+### Step 1: Create ec2 server, Connect, install docker, check status, start docker. (Below commands are for Ubuntu)
 ```
 sudo apt update
 sudo apt install docker.io
