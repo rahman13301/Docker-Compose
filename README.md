@@ -5,8 +5,8 @@
 
 ### Step 1: Create ec2 server, Connect, install docker, check status, start docker. (Below commands are for Amazon Linux AMI)
 ```
-sudo yum update
-sudo yum install -y docker
+sudo apt update
+sudo apt install -y docker.io
 docker --version 
 sudo systemctl start docker
 systemctl status docker
